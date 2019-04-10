@@ -4,7 +4,7 @@ include:
  sudo: false # only for faster builds  
  compiler:
  - clang
- - gcc
+ - gcc avr
  script:  
  - gcc -o test test.c 
  - ./test
