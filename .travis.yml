@@ -1,6 +1,6 @@
 matrix:
 include:    
-language: c
+language: cpp
 sudo: required
 dist: trusty
 compiler: gcc
